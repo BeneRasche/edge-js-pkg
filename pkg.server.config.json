@@ -1,0 +1,7 @@
+{
+  "assets": [
+    "package.json",
+    "node_modules/edge-js/lib/native/win32/x64/22/**"
+
+  ]
+}

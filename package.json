@@ -4,17 +4,11 @@
   "main": "index.js",
   "bin": "index.js",
   "dependencies": {
-    "edge-js": "^23.1.4",
-    "pkg": "npm:@yao-pkg/pkg@^6.3.1"
+    "edge-js": "^23.1.0",
+    "pkg": "@yao-pkg/pkg@^6.0.1"
   },
   "scripts": {
     "start": "node index.js",
-    "pkg": "pkg index.js -c package.json --no-native-build --output Edge.exe"
-  },
-  "pkg": {
-    "assets": "node_modules/edge-js/lib/native/win32",
-    "targets": [
-      "node20-win"
-    ]
-  }
+    "pkg": "pkg ./src/index.js -c pkg.server.config.json -t node22-win-x64 --output node.exe"
+    }
 }

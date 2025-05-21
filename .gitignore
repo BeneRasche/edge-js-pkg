@@ -28,3 +28,4 @@ obj/
 *.suo
 packages/*
 _ReSharper*
+node.exe
