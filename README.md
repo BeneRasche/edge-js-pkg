@@ -6,7 +6,8 @@
 
 
 ### PKG
-- `npm run pkg` to package standalone exe
+- `pkg ./src/index.js -c pkg.server.config.json --no-native-build -t node22-win-x64 --output node.exe` to package standalone exe
+- run with `.\node.exe'
 
 
 
